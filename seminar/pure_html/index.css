@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.main {
+  position: relative;
+}
+
+#mainImg {
+  position: absolute;
+  z-index: -1;
+}
+
+.nav {
+  list-style: none;
+  margin: 0 10%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.nav li {
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav li:hover {
+  background-color: rgb(13, 23, 82);
+  color: white;
+}
