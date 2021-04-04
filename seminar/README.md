@@ -231,5 +231,33 @@ export default App;
 - `<Home />` Home 컴포넌트를 사용합니다.
 - `export default App;` 다른 파일에서 이 파일을 불러올 수 있도록 export 해줍니다.
 
+영상 마지막 부분에 github page에 deploy하는 부분이 있습니다. github page는 자신의 소스를 인터넷에 올릴 수 있는 서비스입니다. 다 무료입니다.
+
+- git을 설치합니다. : https://git-scm.com/
+- 프로젝트로 가서 yarn add gh-pages를 통해 설치해줍니다.
+- github에 리포지토리를 하나 만들어줍니다. 이때 제목과 설명만 적어주고 만듭니다.
+- 다음 명령어를 순서대로 쳐줍니다.
+
+```git
+git commit -m "first commit"
+git remote add origin [리포지토리 주소]
+git branch -M main
+git push -u origin main
+```
+
+- package.json 파일을 수정해줍니다. 제 코드를 한번 참고해보세요
+
+```json
+  "homepage": "https://[자신의 아이디].github.io/[프로젝트 이름]/",
+  "scripts": {
+    ...
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    ...
+  }
+```
+
+- 그다음 yarn deploy를 입력해줍니다. 그러면 홈페이지 주소로 github-page가 활성화되어 인터넷에 웹사이트가 올라가 있을 겁니다
+
 여기까지 설명드리고 나머지는 영상의 내용을 따라와주시면 됩니다.
 영상에서 놓친 부분이 있다면 [여기](react/src)의 코드를 참고해주세요 궁금한게 있으시면 연락 주세요
