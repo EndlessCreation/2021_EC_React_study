@@ -30,7 +30,7 @@ React를 배우면 웹 사이트를 간단히 개발할 수 있습니다. 뿐만
 - 크롬
 - Visual Studio Code : https://code.visualstudio.com/
 - Node.js : https://nodejs.org/ko/
-  - 외쪽의 14.x 버전을 설치해주세요
+  - 왼쪽의 14.x 버전을 설치해주세요
 - Yarn : cmd에 들어가서 npm install -g yarn 을 하면 yarn이 설치됩니다.
 - create-react-app : 이 프로그램은 프로젝트를 만들고자 하는 폴더 안에서 실행해야 합니다. cmd에서 cd [해당폴더의 경로]를 입력해서 해당 경로로 이동해야 합니다.
 
