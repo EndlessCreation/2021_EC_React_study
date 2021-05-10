@@ -1,0 +1,15 @@
+.Footer {
+    width: 100%;
+    height: 22rem;
+    background-color: white;
+}
+
+.box {
+    width: 980px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

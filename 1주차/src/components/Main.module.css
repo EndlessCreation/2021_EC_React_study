@@ -1,0 +1,87 @@
+.Main {
+    width: 400px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #797979;
+    margin: 0.5rem 0 1rem 0;
+}
+
+h4 {
+    color: #8a8a8a;
+    margin: 0.5rem 0;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form input {
+    height: 2rem;
+    border: 1px solid rgb(186, 188, 194);
+    border-radius: 5px;
+    margin: 0 0.5rem 0.5rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.form > input {
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    width: 100%;
+}
+
+.name > input {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+
+
+p {
+    width: 80%;
+    font-size: 0.7rem;
+    color: gray;
+}
+
+a {
+    color: rgb(45, 62, 139);
+    text-decoration: none;
+}
+
+.birth {
+    width: 40%;
+}
+
+.genderSelect label {
+    margin-right: 2rem;
+}
+
+.buttonStyle{
+    width: 50%;
+    background: linear-gradient(#67ae55, #578843);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 7px 0;
+    color:white;
+    border-radius: 5px;
+    border: 0.3px solid black;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    box-shadow: inset 0 1px 1px #a4e388;
+}   
