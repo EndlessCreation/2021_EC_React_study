@@ -1,14 +1,14 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import Login from "./components/Login";
-import Signup from "./components/Signup";
-import Todo from "./components/Todo";
+import Register from "./components/Register";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <BrowserRouter>
       <Route exact path="/" component={Login} />
-      <Route path="/signup" component={Signup} />
-      <Route path="/todo" component={Todo} />
+      <Route path="/register" component={Register} />
+      <Route path="/todo" component={TodoList} />
     </BrowserRouter>
   );
 }

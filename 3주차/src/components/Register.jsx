@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
-import styles from "./Signup.module.css";
+import styles from "./Register.module.css";
 
 const Signup = (props) => {
   const history = useHistory();
