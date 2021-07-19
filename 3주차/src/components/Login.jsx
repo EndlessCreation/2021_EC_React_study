@@ -19,7 +19,7 @@ const Login = (props) => {
           <p>PASSWORD</p>
           <input className={styles.input} type="text" />
         </div>
-        <Link to="/signup" className={styles.signupButton}>
+        <Link to="/register" className={styles.signupButton}>
           회원가입
         </Link>
         <button className={styles.button} onClick={onClick}>
